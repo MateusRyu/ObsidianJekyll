@@ -1,15 +1,18 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-jekyll",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "This is a obsidian plugin to support jekyll based website",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"jekyll",
+		"github pages"
+	],
+	"author": "Mateus Ryu Yamaguchi",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
