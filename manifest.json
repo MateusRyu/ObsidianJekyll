@@ -5,7 +5,7 @@
 	"minAppVersion": "0.15.0",
 	"description": "This is a obsidian plugin to support jekyll based website",
 	"author": "Mateus Ryu Yamaguchi",
-	"authorUrl": "",
+	"authorUrl": "https://github.com/MateusRyu",
 	"fundingUrl": "",
 	"isDesktopOnly": false,
 	"manifest_version": 2
